@@ -6,6 +6,6 @@ export default class TxtAsMdPlugin extends Plugin {
     super.onload();
 
     // register the view and extensions
-    this.registerExtensions(["txt"], "markdown");
+    this.registerExtensions(["txt", "otl", "Rmd", "markdown"], "markdown");
   }
 }
